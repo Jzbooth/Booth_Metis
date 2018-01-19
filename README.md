@@ -14,4 +14,22 @@ My first project at Metis challenged my partner and I to optimize the allocation
 **Gather and clean the data**
 - Gathering the data was simple.  We found the MTA and census data on their respective websites and we found a map of the locations of startups in New York City online. After bringing the MTA data into our Jupyter Notebook we moved it into a data frame.  Once in the data frame we could drop columns that were irrelevant to our search and isolated the variables DATE, TIME, SCP, STATION, ENTRIES, EXITS.  When in this format we could look at entries per day for each of the stations and find the ones with the highest traffic.
 
-- Once the census data was imported into our notebook we could pull out the relevant data using a key provided by the census website.  The key was required because the data was in the form of a 176 character string of numbers.  From this data we decided that Borough, Sub-Borough, and Overall Income were the most important peices of data.
+- Once the census data was imported into our notebook we could pull out the relevant data using a key provided by the census website.  The key was required because the data was in the form of a 176 character string of numbers.  From this data we decided that Borough, Sub-Borough, and Overall Income were the most important peices of data to extract.  After bringing this into a dataframe we found the mean and median incomes for the sub-boroughs of manhattan.  
+
+- The locations of startups in NYC was found online.  This map showed that the vast majority of startups are located in lower to mid Manhattan.  Because of this we decided that we should focus our street teams in Manhattan exclusively.
+
+### Recomendation
+
+After completing our analysis all of our data pointed towards lower and middle Manhattan as the prime locations for our street teams.  
+
+- There were a number of very high volume subway terminals that we could utilize to get the most exposure.
+
+- The census data showed that these sub-boroughs had the highest average and median incomes in Manhattan.
+
+- The map of startups showed that the vast majority of startup companies were located in lower and middle Manhattan.
+
+### Conclusion
+
+In conclusion, we would reccomend that the people of WTWY place their street teams in the high volume subway terminals located in lower to middle Manhattan.
+
+

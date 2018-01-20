@@ -28,7 +28,7 @@ After completing our analysis all of our data pointed towards lower and middle M
 
 - The census data showed that these sub-boroughs had the highest average and median incomes in Manhattan.
 
-![Mean graph](/images/mean_plt.png)
+![Mean graph](/images/mean_plt.png)       
 
 ![Median graph](/images/median_plt.png)
 

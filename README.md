@@ -24,6 +24,8 @@ After completing our analysis all of our data pointed towards lower and middle M
 
 - There were a number of very high volume subway terminals that we could utilize to get the most exposure.
 
+![MTA_map](/images/mta_map.tiff)
+
 - The census data showed that these sub-boroughs had the highest average and median incomes in Manhattan.
 
 ![Mean graph](/images/mean_plt.png)
@@ -31,6 +33,8 @@ After completing our analysis all of our data pointed towards lower and middle M
 ![Median graph](/images/median_plt.png)
 
 - The map of startups showed that the vast majority of startup companies were located in lower and middle Manhattan.
+
+![Startup map](/images/nyc_startup_map.jpg)
 
 ### Conclusion
 

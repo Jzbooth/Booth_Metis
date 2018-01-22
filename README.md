@@ -2,7 +2,7 @@
 
 ## Benson Project
 
-[PROJECT BENSON](https://github.com/Jzbooth/Booth_Metis/blob/master/Project_1/README.md)
+[PROJECT BENSON](https://jzbooth.github.io/Booth_Metis/Project_1/)
 
 ### Overview
 

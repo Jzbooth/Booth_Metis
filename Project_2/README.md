@@ -10,6 +10,8 @@ The purpose of this project was to use a linear regression model in order to det
 
 ### Gathering
 
+---
+
 #### Beautiful soup
 
 I used the python package beautiful soup to scrape the batters data from sportrac.com.  I was able to identify the table and rows that I wanted to scrape by examining the raw html and using thier locations to itterate through the tabel.
@@ -25,5 +27,7 @@ The data was, for the most part, very easy to work with.  The only cleaning that
 ## Method
 
 ### Exploratory Analysis
+
+
 
 

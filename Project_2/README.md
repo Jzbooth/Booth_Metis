@@ -19,3 +19,11 @@ I used the python package beautiful soup to scrape the batters data from sportra
 When attempting to scrape the data for pitchers from the same website I saw the limits of beautiful soup.  The website required some interaction to get to the pitching data and when scraping that url with beautiful soup it would still give me the batters data.  To overcome this problem I used the python package Selenium.  Selenium is great because it allows you to interact with the website.  Selenium allowed me to scrape the rest of the data.
 
 ### Cleaning
+
+The data was, for the most part, very easy to work with.  The only cleaning that I had to do was on the names of the players.  I needed to get all of the names to be the same format so that I could easily merge the player data frames with the dataframes containing the salary information.
+
+## Method
+
+### Exploratory Analysis
+
+

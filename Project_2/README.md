@@ -10,8 +10,6 @@ The purpose of this project was to use a linear regression model in order to det
 
 ### Gathering
 
----
-
 #### Beautiful soup
 
 I used the python package beautiful soup to scrape the batters data from sportrac.com.  I was able to identify the table and rows that I wanted to scrape by examining the raw html and using thier locations to itterate through the tabel.
@@ -27,6 +25,31 @@ The data was, for the most part, very easy to work with.  The only cleaning that
 ## Method
 
 ### Exploratory Analysis
+
+The first step of my linear regression was to check the correlation coefficients to determine which variables might be significant in determining the salary of players.
+
+### Transforming Salary
+
+I found very early on that performing a log transformation on salary would result in a much better fit for my regression.  It is important to note that when performing this transformation the coefficients of the independent variables can be interpreted as a percent change in the salary.  For example, if one of my coefficients is .25 then, given all else constant, for every 1 unit increase in this variable the salary will increase, on average, by 25%.
+
+###  Transforming independent variables
+
+The next step was to examine the independent variables and test if a transformation of them would result in a lower mean squared error in the model.  It was found that a few of the variables were worth transforming and so they were added to the data set.
+
+### Regularization
+
+Regularization is a way of manipulating the cost function to punish the complexity of the model and can be a good way to prevent over fitting.  I used a ridge regression to regularize my model.  When splitting the data set to train the model on part and test on another the model that resulted in the ridge regression resulted in the highest adjusted R^2.  
+
+## Conclusion
+
+In conclusion, the final models for batters and pitchers had an adjusted testing R^2 of .61 nad .63 respectively.  This means that 61% and 63% of the variance can be explained by the model.  The variables found to be most useful in predicting the salaries of batters are: Age, Sacrifice Hits, Hits into Double Play (GDP), Hits, Runs, Total Bases, Walks, RBIs, Plate appearances and At Bats. Yhe variables found to be most useful in predicting the salaries of pitchers are: Age, HR per 9, Walks per 9, Games Started, Strikeouts/Wins, Loses, HR, Complete Games, RBIs, Plate appearances and At Bats. 
+
+
+
+
+
+
+
 
 
 

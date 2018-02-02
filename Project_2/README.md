@@ -42,7 +42,11 @@ Regularization is a way of manipulating the cost function to punish the complexi
 
 ## Conclusion
 
-In conclusion, the final models for batters and pitchers had an adjusted testing R^2 of .61 nad .63 respectively.  This means that 61% and 63% of the variance can be explained by the model.  The variables found to be most useful in predicting the salaries of batters are: Age, Sacrifice Hits, Hits into Double Play (GDP), Hits, Runs, Total Bases, Walks, RBIs, Plate appearances and At Bats. Yhe variables found to be most useful in predicting the salaries of pitchers are: Age, HR per 9, Walks per 9, Games Started, Strikeouts/Wins, Loses, HR, Complete Games, RBIs, Plate appearances and At Bats. 
+In conclusion, the final models for batters and pitchers had an adjusted testing R^2 of .61 nad .63 respectively.  This means that 61% and 63% of the variance can be explained by the model.  The variables found to be most useful in predicting the salaries of batters are: Age, Sacrifice Hits, Hits into Double Play (GDP), Hits, Runs, Total Bases, Walks, RBIs, Plate appearances and At Bats. Yhe variables found to be most useful in predicting the salaries of pitchers are: Age, HR per 9, Walks per 9, Games Started, Strikeouts/Wins, Loses, HR, Complete Games, Runs and Shutouts. 
+
+## Additional information
+
+Additional information including a powerpoint and the jupyter note book can be found in the github repo with the same name as this blog.
 
 
 

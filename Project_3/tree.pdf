@@ -24,10 +24,10 @@ edge [fontname=helvetica] ;
 9 -> 10 ;
 11 [label=<gini = 0.472<br/>samples = 89<br/>value = [34, 55]<br/>class = Default>, fillcolor="#399de561"] ;
 9 -> 11 ;
-12 [label=<PAY_6 &le; 1.0<br/>gini = 0.397<br/>samples = 1998<br/>value = [546, 1452]<br/>class = Default>, fillcolor="#399de59f"] ;
+12 [label=<slope &le; -217.0<br/>gini = 0.397<br/>samples = 1998<br/>value = [546, 1452]<br/>class = Default>, fillcolor="#399de59f"] ;
 8 -> 12 ;
-13 [label=<gini = 0.43<br/>samples = 1159<br/>value = [362, 797]<br/>class = Default>, fillcolor="#399de58b"] ;
+13 [label=<gini = 0.446<br/>samples = 782<br/>value = [263, 519]<br/>class = Default>, fillcolor="#399de57e"] ;
 12 -> 13 ;
-14 [label=<gini = 0.342<br/>samples = 839<br/>value = [184, 655]<br/>class = Default>, fillcolor="#399de5b7"] ;
+14 [label=<gini = 0.357<br/>samples = 1216<br/>value = [283, 933]<br/>class = Default>, fillcolor="#399de5b2"] ;
 12 -> 14 ;
 }

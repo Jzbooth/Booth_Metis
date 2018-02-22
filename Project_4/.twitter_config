@@ -12,8 +12,8 @@
 # all strings.
 
 {
- "consumer_key": "fill in!",
- "consumer_secret": "fill in!",
- "access_token": "fill in!",
- "access_token_secret": "fill in!",
+ "consumer_key": "CRQKu5QFftmmYZ2sTxxmCFEO9",
+ "consumer_secret": "NxTmqITawuyQvq9OWYUXo49GbWxIG0irktVNxecDUpcm5XMpAW",
+ "access_token": "479258316-xpsQp4zKdpVOgLwb6jHOcnbRL5gowspFLbo0kGA0",
+ "access_token_secret": "6OaYmejepY9FlxyZUZnM6TmDh7ShMqmrFEUbUth7OkmAX",
 }

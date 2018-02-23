@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Game of Life!</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+  </head>
+  <body>
+
+    <div>
+      <button type="button" onClick="getnextframe()">Evolve!</button>
+    </div>
+
+    <script>
+       var dataset = new Array(1600)
+       var svg = d3.select("body").append("svg")
+                   .attr("width", 800)
+                   .attr("height", 600);
+       svg.selectAll("rect")
+          .data(dataset)
+          .enter().append("rect")
+          .attr("y", function(d, i) { dataset[i]=0; return (i%40)*20 })
+          .attr("width", 18)
+          .attr("height", 18)
+          .attr("x", function(d, i) { return Math.floor(i/40)*20; })
+          .style("fill",'blue')
+          .on("mousedown",function(d,i) {
+              d3.select(this).style("fill","#ff77b4");
+              dataset[i]=1;
+          });
+     function getnextframe(){
+       $.ajax({
+         type: "POST",
+         contentType: "application/json; charset=utf-8",
+         url: "/gof",
+         dataType: "json",
+         async: true,
+         data: "{\"grid\": ["+dataset+"]}",
+         success: function (d) {
+         }
+       })
+     }
+    </script>
+
+  </body>
+</html>

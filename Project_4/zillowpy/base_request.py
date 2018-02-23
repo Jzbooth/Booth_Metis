@@ -6,7 +6,7 @@ Created on Apr 19, 2011
 """
 
 import urllib
-import urllib2
+#import urllib2
 
 from zillowpy import zillow_response
 

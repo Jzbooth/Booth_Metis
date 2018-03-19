@@ -1,6 +1,6 @@
 # Booth_Metis
 
-# Project Luther
+# Predicting MLB player salaries
 
 ## Overview
 
@@ -38,7 +38,7 @@ The next step was to examine the independent variables and test if a transformat
 
 ### Regularization
 
-Regularization is a way of manipulating the cost function to punish the complexity of the model and can be a good way to prevent over fitting.  I used a ridge regression to regularize my model.  When splitting the data set to train the model on part and test on another the model that resulted in the ridge regression resulted in the highest adjusted R^2.  
+Regularization is a way of manipulating the cost function to punish the complexity of the model and can be a good way to prevent over fitting.  I used a ridge regression to regularize my model.  When splitting the data set to train/test sets, the model that resulted in the ridge regression resulted in the highest adjusted R^2.  
 
 ## Conclusion
 

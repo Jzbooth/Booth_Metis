@@ -1,0 +1,471 @@
+@font-face {
+  font-family: "Advent Pro";
+  src: url("/resources/fonts/AdventPro/AdventPro-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Advent Pro";
+  src: url("/resources/fonts/AdventPro/AdventPro-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Advent Pro";
+  src: url("/resources/fonts/AdventPro/AdventPro-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Alegreya Sans SC";
+  src: url("/resources/fonts/AlegreyaSansSC/AlegreyaSansSC-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Alegreya Sans SC";
+  src: url("/resources/fonts/AlegreyaSansSC/AlegreyaSansSC-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Alegreya Sans SC";
+  src: url("/resources/fonts/AlegreyaSansSC/AlegreyaSansSC-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Arvo";
+  src: url("/resources/fonts/Arvo/Arvo-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Arvo";
+  src: url("/resources/fonts/Arvo/Arvo-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Arvo";
+  src: url("/resources/fonts/Arvo/Arvo-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("/resources/fonts/Bitter/Bitter-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("/resources/fonts/Bitter/Bitter-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Bitter";
+  src: url("/resources/fonts/Bitter/Bitter-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("/resources/fonts/Dosis/Dosis-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("/resources/fonts/Dosis/Dosis-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Dosis";
+  src: url("/resources/fonts/Dosis/Dosis-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("/resources/fonts/Exo/Exo-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("/resources/fonts/Exo/Exo-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("/resources/fonts/Exo/Exo-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/resources/fonts/JosefinSans/JosefinSans-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/resources/fonts/JosefinSans/JosefinSans-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Josefin Sans";
+  src: url("/resources/fonts/JosefinSans/JosefinSans-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Josefin Slab";
+  src: url("/resources/fonts/JosefinSlab/JosefinSlab-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Josefin Slab";
+  src: url("/resources/fonts/JosefinSlab/JosefinSlab-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Josefin Slab";
+  src: url("/resources/fonts/JosefinSlab/JosefinSlab-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Jura";
+  src: url("/resources/fonts/Jura/Jura-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Jura";
+  src: url("/resources/fonts/Jura/Jura-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Jura";
+  src: url("/resources/fonts/Jura/Jura-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/resources/fonts/Lato/Lato-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/resources/fonts/Lato/Lato-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("/resources/fonts/Lato/Lato-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("/resources/fonts/Lobster/Lobster-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("/resources/fonts/Lobster/Lobster-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("/resources/fonts/Lobster/Lobster-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/resources/fonts/Lora/Lora-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/resources/fonts/Lora/Lora-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lora";
+  src: url("/resources/fonts/Lora/Lora-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/resources/fonts/Merriweather/Merriweather-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/resources/fonts/Merriweather/Merriweather-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("/resources/fonts/Merriweather/Merriweather-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/resources/fonts/Nunito/Nunito-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/resources/fonts/Nunito/Nunito-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("/resources/fonts/Nunito/Nunito-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("/resources/fonts/Orbitron/Orbitron-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("/resources/fonts/Orbitron/Orbitron-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Orbitron";
+  src: url("/resources/fonts/Orbitron/Orbitron-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("/resources/fonts/Oswald/Oswald-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("/resources/fonts/Oswald/Oswald-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Oswald";
+  src: url("/resources/fonts/Oswald/Oswald-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("/resources/fonts/Oxygen/Oxygen-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("/resources/fonts/Oxygen/Oxygen-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Oxygen";
+  src: url("/resources/fonts/Oxygen/Oxygen-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("/resources/fonts/PTSans/PTSans-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("/resources/fonts/PTSans/PTSans-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url("/resources/fonts/PTSans/PTSans-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/resources/fonts/Raleway/Raleway-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/resources/fonts/Raleway/Raleway-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Raleway";
+  src: url("/resources/fonts/Raleway/Raleway-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Rokkitt";
+  src: url("/resources/fonts/Rokkitt/Rokkitt-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Rokkitt";
+  src: url("/resources/fonts/Rokkitt/Rokkitt-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Rokkitt";
+  src: url("/resources/fonts/Rokkitt/Rokkitt-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Share";
+  src: url("/resources/fonts/Share/Share-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Share";
+  src: url("/resources/fonts/Share/Share-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Share";
+  src: url("/resources/fonts/Share/Share-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Share Tech";
+  src: url("/resources/fonts/ShareTech/ShareTech-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/resources/fonts/Ubuntu/Ubuntu-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/resources/fonts/Ubuntu/Ubuntu-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Ubuntu";
+  src: url("/resources/fonts/Ubuntu/Ubuntu-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Francois One";
+  src: url("/resources/fonts/FrancoisOne/FrancoisOne-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Francois One";
+  src: url("/resources/fonts/FrancoisOne/FrancoisOne-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("/resources/fonts/Lobster/Lobster-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lobster";
+  src: url("/resources/fonts/Lobster/Lobster-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/resources/fonts/Montserrat/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/resources/fonts/Montserrat/Montserrat-Bold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("/resources/fonts/Muli/Muli-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Muli";
+  src: url("/resources/fonts/Muli/Muli-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Varela Round";
+  src: url("/resources/fonts/VarelaRound/VarelaRound-Regular.ttf");
+  font-weight: normal;
+}
+#export-container {
+  display: none;
+}
+.export-wrapper {
+  margin-top: 100px;
+}
+@media print {
+  html,
+  body {
+    background-color: #fff !important;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 850px !important;
+  }
+  body > div {
+    margin: 0 !important;
+  }
+  html.a4,
+  body.a4 {
+    width: 827px !important;
+  }
+  @page {
+    size: auto;
+    margin: 0mm 0mm 0mm 0mm;
+    padding: 0mm 0mm 0mm 0mm;
+  }
+  .document-container,
+  #document-ctrl {
+    height: 1100px !important;
+    margin: 0 !important;
+    overflow: hidden;
+    width: 850px !important;
+  }
+  .document-container.a4,
+  #document-ctrl.a4 {
+    height: 1168px !important;
+    width: 827px !important;
+  }
+  #export-container {
+    display: block;
+  }
+  #export-container .document-container {
+    display: block;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .main-column {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+  .page {
+    box-shadow: none;
+    display: block;
+    margin-left: -35px;
+    position: static;
+  }
+  .a4 .page {
+    left: 35px;
+  }
+  .page.page-2 {
+    top: 1100px !important;
+  }
+  .a4 .page.page-2 {
+    top: 1168px !important;
+  }
+  a[href]:after {
+    content: "";
+  }
+  .btn-export-back {
+    display: none !important;
+  }
+  [ng-controller="CustomizerCtrl"] {
+    display: none;
+  }
+  .main-column.edit-page.off-canvas-left {
+    height: 1100px !important;
+  }
+  .a4 .main-column.edit-page.off-canvas-left {
+    height: 1168px !important;
+  }
+  #help-ctrl,
+  .resume-selector,
+  #theme-selector,
+  .navbar {
+    display: none !important;
+  }
+}
